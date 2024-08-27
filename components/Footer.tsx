@@ -1,13 +1,17 @@
-﻿import Image from 'next/image';
+﻿
+
+
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="bg-gradient-to-b from-green-800 to-black py-8 text-white">
+        <footer className="from-green-800 to-black py-8 text-white bg-gradient-to-b">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Logo and Address Section */}
                 <div className="md:col-span-1">
                     <div className="flex flex-col items-start">
-                        <img src="/up-footer.png" alt="UP Logo" className="w-40 mb-4" />
+                        <Image src="/up-footer.png" alt="UP Logo" className="w-40 mb-4" width={160} height={160} />
                         <h3 className="text-xl font-bold mt-4">University of the Philippines Cebu</h3>
                         <p>Lahug: Gorordo Avenue, Cebu City 6000</p>
                         <p>SRP: South Road Properties, Cebu City 6000</p>
@@ -46,9 +50,16 @@ export default function Footer() {
                         <div className="flex mt-5 space-x-10">
 
                        
-                        <a href="#"><img src="/seals.png" alt="Facebook" className="w-25 " /></a>
-                        <a href="#"><img src="/seals-1.png" alt="Twitter" className="w-25" /></a>
-                        <a href="#"><img src="/seals-2.png" alt="Instagram" className="w-25" /></a>
+
+                            <Link href="#">
+                                <Image src="/seals.png" alt="Freedom of Information" className="w-25" width={100} height={100} />
+                            </Link>
+                            <Link href="#">
+                                <Image src="/seals-1.png" alt="Transparancy Seal" className="w-25" width={100} height={100} />
+                            </Link>
+                            <Link href="#">
+                                <Image src="/seals-2.png" alt="DPO/DPS" className="w-25" width={100} height={100} />
+                            </Link>
 
                         </div>
                     </ul>
