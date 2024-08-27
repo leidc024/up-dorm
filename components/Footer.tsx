@@ -1,7 +1,4 @@
-﻿
-
-
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -22,7 +19,7 @@ export default function Footer() {
                 {/* Resources Section */}
                 <div className="md:col-span-1 space-y-14">
                     <h3 className="text-xl font-bold">Resources</h3>
-                    <ul className ="space-y-5">
+                    <ul className="space-y-5">
                         <li><a href="#" className="hover:underline">University of the Philippines System</a></li>
                         <li><a href="#" className="hover:underline">UP College Admission Test</a></li>
                         <li><a href="#" className="hover:underline">UP Cebu Eduroam</a></li>
@@ -48,9 +45,6 @@ export default function Footer() {
                         <li><a href="#" className="hover:underline">Careers</a></li>
 
                         <div className="flex mt-5 space-x-10">
-
-                       
-
                             <Link href="#">
                                 <Image src="/seals.png" alt="Freedom of Information" className="w-25" width={100} height={100} />
                             </Link>
@@ -60,15 +54,14 @@ export default function Footer() {
                             <Link href="#">
                                 <Image src="/seals-2.png" alt="DPO/DPS" className="w-25" width={100} height={100} />
                             </Link>
-
                         </div>
                     </ul>
                 </div>
             </div>
-           
+
             <div className="flex justify-center mt-8 space-x-4">
                 {/* Copyright */}
-                <h3>Copyright All Rights Reserved © 2024 </h3>
+                <h3>Copyright All Rights Reserved &copy; 2024</h3>
             </div>
         </footer>
     );
