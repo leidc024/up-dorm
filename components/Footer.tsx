@@ -1,4 +1,4 @@
-﻿import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -58,7 +58,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-
+           
             <div className="flex justify-center mt-8 space-x-4">
                 {/* Copyright */}
                 <h3>Copyright All Rights Reserved &copy; 2024</h3>
