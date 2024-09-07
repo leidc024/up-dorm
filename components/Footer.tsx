@@ -31,7 +31,7 @@ export default function Footer() {
                 <div className="md:col-span-1 space-y-14">
                     <h3 className="text-xl font-bold">Policy</h3>
                     <ul className="space-y-5">
-                        <li><a href="#" className="hover:underline">UP Cebu Citizen's Charter</a></li>
+                        <li><a href="#" className="hover:underline">UP Cebu Citizen&apos;s Charter</a></li>
                         <li><a href="#" className="hover:underline">NPC Registration</a></li>
                         <li><a href="#" className="hover:underline">Data Privacy</a></li>
                         <li><a href="#" className="hover:underline">Branding & Trademark Guide</a></li>
