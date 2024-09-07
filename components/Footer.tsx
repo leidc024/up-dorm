@@ -1,9 +1,9 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="from-green-800 to-black py-8 text-white bg-gradient-to-b">
+        <footer className="bg-gradient-to-b from-green-800 to-black py-8 text-white">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Logo and Address Section */}
                 <div className="md:col-span-1">

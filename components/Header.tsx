@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div className="flex items-center space-x-4 text-lg font-bold">
 
                     
-                    <a>
+                    <a href = "/">
                         <Image
                             src="/logo.png"
                             alt="UP Cebu Dormitory"
@@ -31,7 +31,7 @@ export default function Navbar() {
                     <Link href="/contact" className="text-focus-visible hover:text-green-500">
                         Contact
                     </Link>
-                    <Link href="/" className="bg-green-800 text-white font-bold py-2 px-4 rounded-full hover:bg-green-500">
+                    <Link href="/" className="bg-red-800 text-white font-bold py-2 px-4 rounded-full hover:bg-green-800">
                         Apply Now
                     </Link>
 
